@@ -9,7 +9,6 @@ import ActivityDetailedInfo from "./ActivityDetailedInfo";
 import ActivityDetailedChat from "./ActivityDetailedChat";
 import ActivityDetailedSidebar from "./ActivityDetailedSidebar";
 
-
 export default observer(function ActivityDetails() {
     const { activityStore } = useStore()
     const { selectedActivity: activity, loadActivity, loadingInitial } = activityStore
